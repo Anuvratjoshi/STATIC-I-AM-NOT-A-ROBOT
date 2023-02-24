@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+#box-holder{
+  width: fit-content;
+  margin: 40px auto;
+  /* background-color: aquamarine; */
+  
+
+}
+/* #messege{
+  margin-right: 50px;
+} */
+#image-container{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+} 
+/* #checkbox-margin{
+  margin-top: 800px;
+} */
+#image-container .images{
+  height: 100px;
+  width: 100px;
+  /* margin-right: 8px;
+  margin-bottom: 8px; */
+}
+.images img{
+  height: 100%;
+  width: 100%;
+}
+.images img:hover{
+  cursor: pointer;
+  border: 2px solid yellowgreen;
+}
